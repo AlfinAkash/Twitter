@@ -27,7 +27,7 @@ CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
 ```
-Supported by [@person1](https://github.com/person1) and [@person2](https://github.com/person2)
+Supported by [@person1](https://github.com/burakorkmez) 
 
 
 
