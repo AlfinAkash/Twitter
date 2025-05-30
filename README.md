@@ -6,13 +6,12 @@ It includes user authentication, tweet creation, media uploads, and secure token
 ![Project Preview](https://i.ibb.co/sdrbm3td/Screenshot.png)
 
 ##  Tech Stack
-
+- React.js
 - Node.js  
 - Express.js  
 - MongoDB (Mongoose)  
 - JWT (Authentication)  
 - Cloudinary (Image Uploads)  
-- Dotenv (Environment Variables)
 
 ##  Environment Variables
 
