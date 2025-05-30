@@ -3,9 +3,9 @@
 A backend project for a Twitter-like application built using **Node.js**, **Express.js**, **MongoDB**, and **Cloudinary**.  
 It includes user authentication, tweet creation, media uploads, and secure token-based access.
 
-![Project Preview](./screenshot.jpg)
+![Project Preview](./screenshot.png)
 
-## 🌐 Tech Stack
+##  Tech Stack
 
 - Node.js  
 - Express.js  
@@ -14,7 +14,7 @@ It includes user authentication, tweet creation, media uploads, and secure token
 - Cloudinary (Image Uploads)  
 - Dotenv (Environment Variables)
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 Create a `.env` file in the root directory and include the following keys:
 
@@ -26,11 +26,8 @@ NODE_ENV=
 CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
-⚠️ Do not share your actual environment variable values publicly. Keep them secret and secure.
+```
 
-🖼️ Project Screenshot
-
-🤝 Support
 Supported by @person1 and @person2
 
 
