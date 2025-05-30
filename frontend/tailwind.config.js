@@ -10,14 +10,15 @@ export default {
 
 	daisyui: {
 		themes: [
-			"light",
-			{
-				black: {
-					...daisyUIThemes["black"],
-					primary: "rgb(29, 155, 240)",
-					secondary: "rgb(24, 24, 24)",
-				},
+		  "light",
+		  {
+			black: {
+			  ...require("daisyui/src/colors/themes")["[data-theme=black]"],
+			  primary: "rgb(29, 155, 240)",
+			  secondary: "rgb(24, 24, 24)",
 			},
+		  },
 		],
-	},
+	  }
+	  ,
 };
