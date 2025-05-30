@@ -7,9 +7,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "react-hot-toast";
-import { formatPostDate } from "../../utils/date";
+
 import LoadingSpinner from "./LoadingSpinner";
-import { baseUrl } from "../../constant/url";
+import { formatPostDate } from "../../utils/date";
 
 const Post = ({ post }) => {
 	const [comment, setComment] = useState("");
@@ -25,7 +25,7 @@ const Post = ({ post }) => {
 	const { mutate: deletePost, isPending: isDeleting } = useMutation({
 		mutationFn: async () => {
 			try {
-				const res = await fetch(`${baseUrl}/api/posts/${post._id}`, {
+				const res = await fetch(`/api/posts/${post._id}`, {
 					method: "DELETE",
 				});
 				const data = await res.json();
@@ -47,7 +47,7 @@ const Post = ({ post }) => {
 	const { mutate: likePost, isPending: isLiking } = useMutation({
 		mutationFn: async () => {
 			try {
-				const res = await fetch(`${baseUrl}/api/posts/like/${post._id}`, {
+				const res = await fetch(`/api/posts/like/${post._id}`, {
 					method: "POST",
 				});
 				const data = await res.json();
@@ -81,7 +81,7 @@ const Post = ({ post }) => {
 	const { mutate: commentPost, isPending: isCommenting } = useMutation({
 		mutationFn: async () => {
 			try {
-				const res = await fetch(`${baseUrl}/api/posts/comment/${post._id}`, {
+				const res = await fetch(`/api/posts/comment/${post._id}`, {
 					method: "POST",
 					headers: {
 						"Content-Type": "application/json",
