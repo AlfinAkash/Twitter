@@ -3,7 +3,7 @@
 A backend project for a Twitter-like application built using **Node.js**, **Express.js**, **MongoDB**, and **Cloudinary**.  
 It includes user authentication, tweet creation, media uploads, and secure token-based access.
 
-![Project Preview] (https://i.ibb.co/sdrbm3td/Screenshot.png)
+![Project Preview](https://i.ibb.co/sdrbm3td/Screenshot.png)
 
 ##  Tech Stack
 
