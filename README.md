@@ -1,6 +1,6 @@
 # Twitter Clone Backend
 
-A backend project for a Twitter-like application built using **Node.js**, **Express.js**, **MongoDB**, and **Cloudinary**.  
+A backend project for a Twitter-like application built using  **React.js**, **Node.js**, **Express.js**, **MongoDB**, and **Cloudinary**.  
 It includes user authentication, tweet creation, media uploads, and secure token-based access.
 
 ![Project Preview](https://i.ibb.co/sdrbm3td/Screenshot.png)
