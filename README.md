@@ -27,9 +27,10 @@ CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
 ```
 
-## Live
-**Live Demo:** [Click here](https://alfinakash-twitter-x.onrender.com)
+## Live Demo
+Access the live deployment here: [Click here](https://alfinakash-twitter-x.onrender.com)
 
+## Acknowledgements
 Supported by [Burak](https://github.com/burakorkmez) 
 
 
