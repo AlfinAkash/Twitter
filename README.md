@@ -30,8 +30,6 @@ CLOUDINARY_API_SECRET=
 ## Live Demo
 Access the live deployment here: [Click here](https://alfinakash-twitter-x.onrender.com)
 
-## Acknowledgements
-Supported by [Burak](https://github.com/burakorkmez) 
 
 
 
